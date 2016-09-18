@@ -1,0 +1,103 @@
+body {
+	background-image: url("test.jpg");
+}
+
+h1 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 2%;
+    padding: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 48px;
+}
+h2 {
+    display: block;
+    position: absolute;
+    width: 100%;
+    margin-top: 8%;
+    padding: 0;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 24px;
+}
+
+.button-secondary {
+				    text-align: center;
+				    display: block;
+				    position: absolute;
+		            color: white;
+		            border-radius: 4px;
+		            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+		            background: rgb(66, 184, 221);
+		            font-size: 125%;
+		           }
+
+.start{
+    margin: 0 auto;
+    width: 100px;
+    margin-top: 12%;
+}
+
+.left {
+	margin-left: 15%;
+	padding-top: 5%;
+	display: none;
+}
+
+.image1 {
+    border: 1px solid #ddd;
+    width: 100px;
+    display: block;
+    font-weight: bold;
+    font-size: 32px;
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 900px;
+    text-align: center;
+    text-decoration: none;
+    background: url("http://www.bmiresearch.com/sites/default/files/Germany_0.png") no-repeat ;
+}
+
+.image1:hover {
+    border: 2px solid #d13030;
+}
+
+.right {
+	margin-left: 60%;
+	margin-top: -28.7%;
+	display: none;
+}
+
+.image2 {
+    border: 1px solid #ddd;
+    width: 100px;
+    display: block;
+    font-weight: bold;
+    font-size: 32px;
+    width: 350px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    line-height: 900px;
+    text-align: center;
+    text-decoration: none;
+    background: url("http://prn.fm/wp-content/uploads/2015/05/UK.png") no-repeat ;
+}
+
+.image2:hover {
+    border: 2px solid #d13030;
+}
+
+.final {
+	border: 1px solid black;
+	display: none;
+	text-align: center;
+}
