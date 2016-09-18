@@ -55,6 +55,10 @@ var getQuestion = function() {
 	}
 }
 
+var size = function() {
+	return array.length;
+}
+
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);

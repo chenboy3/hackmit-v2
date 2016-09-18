@@ -97,7 +97,8 @@ h2 {
 }
 
 .final {
-	border: 1px solid black;
 	display: none;
+	width: 500px;
+	height: 500px;
 	text-align: center;
 }
